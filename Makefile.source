@@ -1,0 +1,90 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile.source                                    :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mmartin <mmartin@student.42.fr>            +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2014/02/25 16:41:52 by mmartin           #+#    #+#              #
+#    Updated: 2014/03/27 13:40:58 by mmartin          ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+SRC			=	main.c						\
+				builtin/ft_add_env.c		\
+				builtin/ft_alias.c			\
+				builtin/ft_builtin.c		\
+				builtin/ft_cd.c				\
+				builtin/ft_create_env.c		\
+				builtin/ft_echo.c			\
+				builtin/ft_echo_escape.c	\
+				builtin/ft_env.c			\
+				builtin/ft_exit.c			\
+				builtin/ft_get_curpath.c	\
+				builtin/ft_getenv_list.c	\
+				builtin/ft_modify_env.c		\
+				builtin/ft_new_env.c		\
+				builtin/ft_search_alias.c	\
+				builtin/ft_setenv.c			\
+				builtin/ft_source.c			\
+				builtin/ft_unalias.c		\
+				builtin/ft_unsetenv.c		\
+				exec/ft_amp.c				\
+				exec/ft_and.c				\
+				exec/ft_convert_ltt.c		\
+				exec/ft_dgreat.c			\
+				exec/ft_dless.c				\
+				exec/ft_exec.c				\
+				exec/ft_getenv.c			\
+				exec/ft_great.c				\
+				exec/ft_less.c				\
+				exec/ft_or.c				\
+				exec/ft_pipe.c				\
+				exec/ft_process_tree.c		\
+				exec/ft_processing.c		\
+				exec/ft_search_path.c		\
+				exec/ft_sep.c				\
+				history/ft_add_history.c	\
+				history/ft_create_history.c	\
+				history/ft_free_history.c	\
+				history/ft_history.c		\
+				history/ft_reset_hist.c		\
+				history/ft_tmp_hist.c		\
+				lex_pars/ft_addlex.c		\
+				lex_pars/ft_addtree.c		\
+				lex_pars/ft_free_lex.c		\
+				lex_pars/ft_free_pars.c		\
+				lex_pars/ft_lexer.c			\
+				lex_pars/ft_parser.c		\
+				lex_pars/ft_search_word.c	\
+				misc/ft_check_option.c		\
+				misc/ft_get_word.c			\
+				misc/ft_print.c				\
+				misc/ft_prompt.c			\
+				misc/ft_signal.c			\
+				misc/ft_init_source.c		\
+				misc/ft_strsplit_shell.c	\
+				misc/ft_tilde.c				\
+				termcap/ft_alt.c			\
+				termcap/ft_backspace.c		\
+				termcap/ft_backup_termcap.c	\
+				termcap/ft_check_pos.c		\
+				termcap/ft_ctrlc.c			\
+				termcap/ft_ctrll.c			\
+				termcap/ft_cut.c			\
+				termcap/ft_delete.c			\
+				termcap/ft_end.c			\
+				termcap/ft_exit_term.c		\
+				termcap/ft_home.c			\
+				termcap/ft_init_term.c		\
+				termcap/ft_move.c			\
+				termcap/ft_oneshot.c		\
+				termcap/ft_paste.c			\
+				termcap/ft_print.c			\
+				termcap/ft_reset_termcap.c	\
+				termcap/ft_return.c			\
+				termcap/ft_struct.c			\
+				termcap/ft_tab.c			\
+				termcap/ft_termcap.c		\
+				termcap/ft_int_putchar.c	\
+				termcap/ft_tool_list.c		\
